@@ -1,3 +1,6 @@
+body {
+  padding-top: 50px;
+}
 .item-label {
   position: absolute;
   left: -10px;
@@ -14,12 +17,6 @@
   padding-left: 30px;
 }
 /* Overrides */
-.ui.accordion:not(.styled) .title ~ .content:not(.ui):last-child {
-  padding-bottom: 1em;
-}
-.raw-material .content {
-  font-size: 1.2em;
-}
 /* Table */
 .ui.table tbody tr:first-child td,
 .ui.table tbody + tbody tr:first-child td,
@@ -45,4 +42,10 @@
   display: inline;
   height: 32px;
   width: auto;
+}
+.ui.table .ui.xmini.image,
+.ui.table .ui.xmini.images .image,
+.ui.table .ui.xmini.images img,
+.ui.table .ui.xmini.images svg {
+  width: 20px;
 }
